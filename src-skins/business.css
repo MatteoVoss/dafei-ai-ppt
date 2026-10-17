@@ -1,0 +1,42 @@
+  /* ===== 风格 C · 商务汇报风（大飞AIPPT 新增） ===== */
+  :root{
+    --ink:#0b1f3a;--ink-rgb:11,31,58;--paper:#f6f8fb;--paper-rgb:246,248,251;--paper-tint:#e9eef5;--ink-tint:#132b4d;
+    --accent:#2f6bff;--accent-rgb:47,107,255;--accent2:#f5a524;
+    --serif-zh:"Noto Sans SC",source-han-sans-sc,sans-serif;
+    --serif-en:"Inter","Noto Sans SC",sans-serif;
+    --serif-body-en:"Inter",sans-serif;
+    --mono:"Inter","Noto Sans SC",sans-serif;
+  }
+  html,body{background:var(--paper)}
+  .slide.light{background:linear-gradient(180deg,#ffffff 0%,#f3f6fb 100%)}
+  .slide.dark{background:radial-gradient(120% 90% at 85% 10%,#17407a 0%,#0b1f3a 55%,#081629 100%)}
+  .slide.light::before{background:none;border-left:.55vw solid var(--accent);inset:0 auto 0 0;width:.55vw}
+  .slide.dark::before{background:repeating-linear-gradient(135deg,rgba(255,255,255,.035) 0 1px,transparent 1px 28px)}
+  .slide.hero.light::before,.slide.hero.dark::before{background:repeating-linear-gradient(135deg,rgba(var(--accent-rgb),.06) 0 1px,transparent 1px 30px);border:none;width:auto;inset:0}
+  .slide.hero.dark::after{background:radial-gradient(60% 60% at 90% 90%,rgba(var(--accent-rgb),.35),transparent 70%)}
+  .slide.hero.light::after{background:radial-gradient(50% 60% at 95% 0%,rgba(var(--accent-rgb),.12),transparent 70%)}
+  .h-hero{font-weight:900;letter-spacing:-.01em}
+  .h-xl{font-weight:800;font-size:4.6vw;letter-spacing:-.005em}
+  .h-sub{font-weight:500;opacity:.8}
+  .h-md{font-weight:700}
+  .lead{font-family:var(--sans-zh);font-weight:400}
+  .kicker{display:inline-block;width:fit-content;justify-self:start;align-self:flex-start;font-weight:700;letter-spacing:.18em;opacity:1;color:#fff;background:var(--accent);padding:.55em 1.1em;border-radius:3px;font-size:12px}
+  .chrome{letter-spacing:.12em;font-weight:600}
+  .chrome > div:first-child::before{content:"";display:inline-block;width:.7em;height:.7em;background:var(--accent);margin-right:.8em;vertical-align:-.05em}
+  .slide.light .stat-card{background:#fff;border-radius:10px;padding:2.4vh 1.8vw;box-shadow:0 10px 30px rgba(11,31,58,.08);border-top:4px solid var(--accent)}
+  .slide.dark .stat-card{background:rgba(255,255,255,.06);border-radius:10px;padding:2.4vh 1.8vw;border-top:4px solid var(--accent2)}
+  .stat-nb,.stat .n,.big-num,.mid-num{font-family:"Inter",sans-serif;font-weight:800;letter-spacing:-.03em}
+  .slide.light .stat-nb,.slide.light .stat .n{color:var(--accent)}
+  .slide.dark .stat-nb,.slide.dark .stat .n{color:#fff}
+  .stat-label{font-weight:700;letter-spacing:.12em}
+  blockquote{font-family:var(--sans-zh)!important;font-weight:900!important}
+  .slide.light blockquote{color:var(--ink)}
+  .slide.light blockquote span:last-child{color:var(--accent)}
+  .step{border-radius:8px}
+  .slide.light .step{background:#fff;box-shadow:0 6px 20px rgba(11,31,58,.07)}
+  .step-nb{color:var(--accent);font-weight:800}
+  .slide.dark .step-nb{color:var(--accent2)}
+  .grid-2-6-6>[data-anim]{border-left-color:var(--accent)!important;border-radius:0 8px 8px 0}
+  .slide.light .grid-2-6-6>[data-anim]{background:#fff;box-shadow:0 8px 24px rgba(11,31,58,.06)}
+  .slide.dark .grid-2-6-6>[data-anim]{background:rgba(255,255,255,.05)}
+  .foot{font-weight:600;letter-spacing:.1em}

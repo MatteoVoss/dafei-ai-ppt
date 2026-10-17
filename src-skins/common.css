@@ -1,0 +1,3 @@
+  /* ===== 大飞AIPPT 扩展风格 · 公共覆盖 ===== */
+  canvas.bg{display:none!important}
+  .slide::before,.slide.hero::after{backdrop-filter:none!important}

@@ -1,0 +1,45 @@
+  /* ===== 风格 D · 科技发布会风（大飞AIPPT 新增） ===== */
+  :root{
+    --ink:#05060b;--ink-rgb:5,6,11;--paper:#eef1f7;--paper-rgb:238,241,247;--paper-tint:#e2e6ef;--ink-tint:#0d0f1a;
+    --c1:#00e5ff;--c2:#7c5cff;--c3:#ff3dcd;
+    --grad:linear-gradient(100deg,var(--c1) 0%,var(--c2) 50%,var(--c3) 100%);
+    --serif-zh:"Noto Sans SC",source-han-sans-sc,sans-serif;
+    --serif-en:"Space Grotesk","Inter","Noto Sans SC",sans-serif;
+    --serif-body-en:"Inter",sans-serif;
+    --mono:"JetBrains Mono","IBM Plex Mono",monospace;
+  }
+  html,body{background:var(--ink)}
+  .slide.dark{background:radial-gradient(70% 60% at 15% 0%,rgba(124,92,255,.28),transparent 60%),radial-gradient(60% 60% at 100% 100%,rgba(0,229,255,.18),transparent 60%),#05060b}
+  .slide.light{background:radial-gradient(60% 50% at 100% 0%,rgba(124,92,255,.14),transparent 60%),radial-gradient(50% 50% at 0% 100%,rgba(0,229,255,.12),transparent 60%),#f3f5fa}
+  .slide.dark::before{background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:4vw 4vw}
+  .slide.light::before{background-image:linear-gradient(rgba(5,6,11,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(5,6,11,.05) 1px,transparent 1px);background-size:4vw 4vw}
+  .slide.hero.dark::after{background:radial-gradient(40% 50% at 80% 60%,rgba(255,61,205,.22),transparent 70%)}
+  .slide.hero.light::after{background:none}
+  .h-hero,.h-xl,.h-md,.h-sub{font-family:var(--sans-zh)}
+  .h-hero{font-weight:900;letter-spacing:-.03em}
+  .h-xl{font-weight:800;font-size:5vw;letter-spacing:-.02em}
+  .slide.dark .h-hero,.slide.dark blockquote span:last-child{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .h-sub{font-weight:300;opacity:.75}
+  .lead{font-family:var(--sans-zh);font-weight:300}
+  .kicker{font-weight:500;opacity:1;color:var(--c1);letter-spacing:.32em}
+  .slide.light .kicker{color:var(--c2)}
+  .kicker::before{content:"▍";margin-right:.5em;color:var(--c3)}
+  .chrome,.foot{color:inherit}
+  .stat-card{border:1px solid rgba(127,127,160,.28);border-radius:14px;padding:2.4vh 1.8vw;position:relative;overflow:hidden}
+  .slide.dark .stat-card{background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02))}
+  .slide.light .stat-card{background:rgba(255,255,255,.75)}
+  .stat-card::before{content:"";position:absolute;left:0;top:0;right:0;height:3px;background:var(--grad)}
+  .stat-nb,.stat .n,.big-num,.mid-num{font-family:var(--serif-en);font-weight:700;letter-spacing:-.04em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat-unit{-webkit-text-fill-color:currentColor}
+  .slide.dark .stat-unit{color:#cfd3ff}
+  .slide.light .stat-unit{color:#4a4f6a}
+  .stat-label{color:var(--c1);opacity:.9}
+  .slide.light .stat-label{color:var(--c2)}
+  blockquote{font-family:var(--sans-zh)!important;font-weight:900!important;letter-spacing:-.02em!important}
+  .step{border:1px solid rgba(127,127,160,.3);border-radius:12px}
+  .step-nb{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}
+  .grid-2-6-6>[data-anim]{border-left:none!important;border:1px solid rgba(127,127,160,.3)!important;border-radius:14px;position:relative}
+  .slide.dark .grid-2-6-6>[data-anim]{background:rgba(255,255,255,.04)}
+  .slide.dark .grid-2-6-6>[data-anim="left"]{opacity:.5!important}
+  .grid-2-6-6>[data-anim="right"]{border-color:transparent!important;background:linear-gradient(#0b0d18,#0b0d18) padding-box,var(--grad) border-box!important}
+  .slide.light .grid-2-6-6>[data-anim="right"]{background:linear-gradient(#fff,#fff) padding-box,var(--grad) border-box!important}

@@ -1,0 +1,40 @@
+  /* ===== 风格 E · 国潮东方风（大飞AIPPT 新增） ===== */
+  :root{
+    --ink:#1d1b18;--ink-rgb:29,27,24;--paper:#f2ead9;--paper-rgb:242,234,217;--paper-tint:#e9dfc9;--ink-tint:#26231f;
+    --zhu:#c0392b;--zhu-rgb:192,57,43;--dai:#2c4a4e;--jin:#b8893a;
+    --serif-zh:"Noto Serif SC",source-han-serif-sc,serif;
+    --brush:"Playfair Display","Ma Shan Zheng","ZCOOL XiaoWei","STKaiti","KaiTi",serif;
+    --serif-en:"Noto Serif SC",serif;
+    --mono:"Noto Serif SC",serif;
+  }
+  html,body{background:var(--paper)}
+  .slide.light{background:radial-gradient(90% 70% at 50% 40%,#f6efe0 0%,#efe5d0 70%,#e6d9bf 100%)}
+  .slide.dark{background:radial-gradient(90% 80% at 30% 30%,#33585c 0%,#203c40 55%,#16292c 100%);color:#f2ead9}
+  .slide::before{background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .3  0 0 0 0 .22  0 0 0 .09 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")!important}
+  .slide.hero::after{content:none}
+  .slide.hero[data-seal]::after{content:attr(data-seal);z-index:3;inset:auto 6vw 17vh auto;width:auto;height:auto;padding:.5em .4em;writing-mode:vertical-rl;font-family:var(--brush);font-size:1.6vw;line-height:1.05;color:#fff;background:var(--zhu);border-radius:4px;box-shadow:inset 0 0 0 3px rgba(255,255,255,.25);opacity:.92}
+  .slide.light .frame,.slide.dark .frame{position:relative}
+  .h-hero{font-family:var(--brush);font-weight:400;letter-spacing:.02em;line-height:1.05}
+  .h-xl{font-weight:900;font-size:4.8vw;letter-spacing:.02em}
+  .h-sub{font-weight:600;opacity:.85;color:var(--zhu)}
+  .slide.dark .h-sub{color:#e9b04f}
+  .h-md{font-weight:700}
+  .kicker{font-family:var(--serif-zh);letter-spacing:.5em;opacity:.9;color:var(--zhu);font-weight:700}
+  .slide.dark .kicker{color:#e9b04f}
+  .kicker::before{content:"◆";margin-right:.6em;font-size:.8em}
+  .chrome,.foot{letter-spacing:.3em}
+  .slide.light .chrome,.slide.light .foot{color:#6b5a3e}
+  .stat-card{border-top:2px solid var(--zhu)!important;padding-top:2vh}
+  .slide.dark .stat-card{border-top-color:#e9b04f!important}
+  .stat-nb,.stat .n,.big-num,.mid-num{font-family:"Noto Serif SC",serif;font-weight:900}
+  .slide.light .stat-nb{color:var(--zhu)}
+  .slide.dark .stat-nb{color:#f2ead9}
+  .stat-label{color:var(--dai);font-weight:700;letter-spacing:.2em}
+  .slide.dark .stat-label{color:#e9b04f}
+  blockquote{font-family:var(--brush)!important;font-weight:400!important;font-size:6.4vw!important;letter-spacing:.02em}
+  .slide.light blockquote{color:var(--ink)}
+  .slide.light blockquote span:last-child{color:var(--zhu)}
+  .step-nb{color:var(--zhu);font-family:var(--serif-zh);font-weight:900}
+  .grid-2-6-6>[data-anim]{border-left:3px solid var(--zhu)!important}
+  .slide.dark .grid-2-6-6>[data-anim]{border-left-color:#e9b04f!important;background:rgba(0,0,0,.12)}
+  .slide.light .grid-2-6-6>[data-anim]{background:rgba(255,255,255,.35)}
