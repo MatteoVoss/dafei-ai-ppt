@@ -12,6 +12,8 @@
 
 预览：assets/previews/
 
+源码地址：https://github.com/MatteoVoss/dafei-ai-ppt
+
 ## 使用
 在 WorkBuddy 的「技能」里添加本技能（或在技能市场搜索"大飞AIPPT"），对话中输入"/"选择大飞AIPPT，说清主题、用途和风格即可。
 

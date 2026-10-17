@@ -4,6 +4,7 @@
 原仓库 https://github.com/op7418/guizang-ppt-skill ，原作者版权与协议见 LICENSE（AGPL-3.0），本项目同样以 AGPL-3.0 开源。
 
 修改者：大飞
+本项目源码地址：https://github.com/MatteoVoss/dafei-ai-ppt
 
 主要修改：
 1. SKILL.md：改名为 dafei-ai-ppt / 大飞AIPPT，补充 WorkBuddy 开放平台所需 frontmatter 字段；新增"大飞5步法"工作流；风格选择从 2 种扩展到 5 种。

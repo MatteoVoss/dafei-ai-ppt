@@ -10,7 +10,7 @@ author: 大飞（基于歸藏 guizang-ppt-skill 二次开发）
 license: AGPL-3.0
 ---
 
-> **致谢与声明**：本技能基于歸藏（op7418）的开源项目 guizang-ppt-skill（https://github.com/op7418/guizang-ppt-skill）二次开发，遵循 AGPL-3.0 协议。大飞新增：风格 C 商务汇报风、风格 D 科技发布会风、风格 E 国潮东方风，以及"大飞5步法"工作流。修改说明见 `MODIFICATIONS.md`。
+> **致谢与声明**：本技能基于歸藏（op7418）的开源项目 guizang-ppt-skill（https://github.com/op7418/guizang-ppt-skill）二次开发，遵循 AGPL-3.0 协议。大飞新增：风格 C 商务汇报风、风格 D 科技发布会风、风格 E 国潮东方风，以及"大飞5步法"工作流。修改说明见 `MODIFICATIONS.md`，本项目源码：https://github.com/MatteoVoss/dafei-ai-ppt 。
 
 ## 大飞5步法（优先遵循）
 
